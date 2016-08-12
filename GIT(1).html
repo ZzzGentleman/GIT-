@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 6.7.1 (453574)"/><meta name="altitude" content="112.8136291503906"/><meta name="author" content="张小东"/><meta name="created" content="2016-04-21 01:58:46 +0000"/><meta name="latitude" content="34.82032510472722"/><meta name="longitude" content="113.5583417573723"/><meta name="source" content="desktop.mac"/><meta name="updated" content="2016-07-06 04:26:48 +0000"/><title>GIT(1)</title></head><body>
+<div><span style="font-size: 18px;">git <a href="http://github.com/dorayo/xcodetools.git"><span style="color: rgb(0, 0, 0);">http://github.com/dorayo/xcodetools.git</span></a></span></div>
+<div><span style="font-size: 18px;">ls</span></div>
+<div><span style="font-size: 18px;">cd xcodetools</span></div>
+<div><span style="font-size: 18px;">ls</span></div>
+<div><span style="font-size: 18px;">./setupSnippets.sh</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;"><b>presentations-&gt;xcodetools(课件)</b></span></div>
+<div><span style="font-size: 18px;"><b>默认配置</b></span></div>
+<div style="font-style: normal; font-variant-caps: normal; font-weight: normal; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;">
+<div><span style="font-size: 18px;"><span style="font-kerning: none; font-variant-ligatures: no-common-ligatures">git config --global user.name <span style="color: rgb(0, 0, 0);">"Youming"</span></span></span></div>
+<div><span style="font-size: 18px;"><span style="font-kerning: none; font-variant-ligatures: no-common-ligatures">git config --global user.email "<span style="color: rgb(0, 0, 0);"><span style="-webkit-font-kerning: none; font-variant-ligatures: no-common-ligatures; -webkit-text-stroke-width: 0px; -webkit-text-stroke-color: rgb(191, 58, 255);">ming.you@hp.com"</span></span></span></span></div>
+</div>
+<div>
+<div style="font-style: normal; font-variant-caps: normal; font-weight: normal; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;">
+<div><span style="font-size: 18px;">个人配置（当前文件夹的配置）</span></div>
+</div>
+<div style="font-style: normal; font-variant-caps: normal; font-weight: normal; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;">
+<div><span style="font-size: 18px;">git config </span><span style="font-size: 18px;"><span style="font-kerning: none; font-variant-ligatures: no-common-ligatures">user.name</span></span> <span style="font-size: 18px;"><span style="color: rgb(0, 0, 0);">"Youming"</span></span></div>
+</div>
+<div style="font-style: normal; font-variant-caps: normal; font-weight: normal; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;">
+<div><span style="font-size: 18px;"><span style="font-kerning: none; font-variant-ligatures: no-common-ligatures">git config user.email </span></span><span style="font-size: 18px;"><span style="font-kerning: none; font-variant-ligatures: no-common-ligatures">"<span style="color: rgb(0, 0, 0);"><span style="-webkit-font-kerning: none; font-variant-ligatures: no-common-ligatures; -webkit-text-stroke-width: 0px; -webkit-text-stroke-color: rgb(191, 58, 255);">ming.you@hp.com"</span></span></span></span></div>
+</div>
+</div>
+<div>
+<div style="font-style: normal; font-variant-caps: normal; font-weight: normal; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;"><span style="font-size: 18px;"><u><br/></u></span></div>
+<div style="font-style: normal; font-variant-caps: normal; font-weight: normal; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;"><span style="font-size: 18px;">git init 初始化</span></div>
+<div style="font-style: normal; font-variant-caps: normal; font-weight: normal; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;"><span style="font-size: 18px;"><br/></span></div>
+<div style="font-style: normal; font-variant-caps: normal; font-weight: normal; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;"><span style="font-size: 18px;">.git  文件下放了所有的git配置文件</span></div>
+<div style="font-style: normal; font-variant-caps: normal; font-weight: normal; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;">
+<div><span style="font-size: 18px;"><br/></span></div>
+</div>
+</div>
+<div><span style="font-size: 18px; -webkit-text-stroke-color: rgb(128, 64, 0); -webkit-text-stroke-width: initial;">git:(master</span><span style="font-size: 18px; -webkit-text-stroke-color: rgb(128, 64, 0);">”当前分支”)</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git add 文件名 文件名     /  . （全加）</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git status 查看当前状态</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git commit -m(描述) “init commit”           (提交)</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git commit -a -m “aga”     (-a 自动add文件并提交，但必须之前add过)</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git log     (日志)</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git diff 文件名  (查看修改的文件与之前的文件对比”工作区")     —staged(暂存区)   文件名(查看修改的文件与之前的文件对比“暂存区”</span><span style="font-size: 18px;">)               “与上一次添加的文件”</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git rm 文件名     (自动将删除的内容放入暂存取)</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git mv (修改文件名)</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git stash     (撤销操作，将修改后的文件放入回收站)          apply     （将回收站的东西还原）</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git reset HEAD 文件名     将暂存区的东西返回工作区</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git show 唯一标识符      可以查看修改日志的内容</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git reset ——hard 唯一标识符      强制将时间转换标识符的提交位</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git reset ——hard HEAD~2          将日志提前2个提交位</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git reflog          查看操作日志</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">vi .gitignore  (添加忽略文件格式)</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><b>1，禁止.DS_store生成：</b><br/>
+打开 “终端” ，复制黏贴下面的命令，回车执行，重启Mac即可生效。<br/>
+<blockquote>defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE</blockquote>
+<br/>
+<strong>2，恢复</strong><b>.DS_store生成：</b><br/></div>
+<div style="margin-left:40px;">defaults delete com.apple.desktopservices DSDontWriteNetworkStores</div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git onstage(复原)</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">sha1(哈希算法，读作shaone)</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git branch 名称     创建分支</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git branch -d 名称     删除分支</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git checkout 名称     切换分支</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git co -b 名称     创建并切换分支</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git merge 名称     将</span><span style="font-size: 18px;">“名称”</span><span style="font-size: 18px;">分支合并到</span><span style="font-size: 18px;">当前</span><span style="font-size: 18px;">分支中</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git br ——merge     显示所有合并到当前分支的分支</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git br ——no-merge     显示所有未被合并到当前分支的分支</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git cat-file -p(使用漂亮的格式输出) 变量名</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git init —— bare      裸仓库</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git clone URL     将URL上的内容克隆下来</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git push 服务器名(origin(默认的)) 分支名(master(默认的))     将内容推送到服务器对应的分支上</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git pull 服务器名(origin(默认的))  分支名(master(默认的))     将服务器对应的分支上的内容拉下来</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">git remote(添加远端) add 服务器名 URL</span></div>
+<div><span style="font-size: 18px;"><br/></span></div>
+<div><span style="font-size: 18px;">文件夹tree     文件blob</span></div>
+</body></html>
